@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorBetTests.cs" />
+    <Compile Include="EvenOddBetTests.cs" />
+    <Compile Include="FieldTests.cs" />
+    <Compile Include="RouletteGameTests.cs" />
     <Compile Include="TestRouletteGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
