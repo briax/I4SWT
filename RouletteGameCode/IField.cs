@@ -8,10 +8,10 @@ namespace RouletteGameCode
 {
     public interface IField
     {
-        uint Number { get; }
+        uint Number { get; set; }
 
-        uint Color { get; }
+        uint Color { get; set; }
 
-        bool Even { get; }
+        bool Even { get; set; }
     }
 }

@@ -25,16 +25,19 @@ namespace RouletteGameTest
         public uint Number
         {
 	        get { return number; }
+            set { number = value; }
         }
 
         public uint Color
         {
 	        get { return color; }
+            set { color = value; }
         }
 
         public bool Even
         {
 	        get { return even; }
+            set { even = value; }
         }
     }
 

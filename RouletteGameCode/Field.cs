@@ -16,7 +16,7 @@ namespace RouletteGameCode
         public uint Number
         {
             get { return _number; }
-            private set
+            set
             {
                 if (value <= 36) _number = value;
                 else throw new FieldException(string.Format("Number {0} not a valid field number", value));
@@ -27,7 +27,7 @@ namespace RouletteGameCode
         public uint Color
         {
             get { return _color; }
-            private set
+            set
             {
                 if (value == Red || value == Black || value == Green) _color = value;
                 else throw new FieldException(string.Format("Color {0} not a valid color. Must be either Red or Black", value));
@@ -39,6 +39,10 @@ namespace RouletteGameCode
             get
             {
                 return Number % 2 == 0;
+            }
+            set
+            {
+                
             }
         }
 
