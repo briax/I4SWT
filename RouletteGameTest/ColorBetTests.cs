@@ -15,7 +15,7 @@ namespace RouletteGameTest
         private uint _bettingAmount;
         private uint _color;
         private ColorBet _cbTestObj;
-        private FieldStub _fsFieldStub;
+      //  private FieldStub _fsFieldStub;
 
         [SetUp]
         public void Setup()

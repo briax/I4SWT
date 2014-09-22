@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RouletteGameCode
 {
-    public class Roulette
+    public class Roulette : IRoulette
     {
         private List<Field> _fields;
         private Field _result;
